@@ -30,7 +30,7 @@ $THEME->sheets = array('custom');
 if (!empty($THEME->settings->bootswatch)) {
     $THEME->lessfile = $THEME->settings->bootswatch;
 } else {
-    $THEME->lessfile = 'bootswatch';
+    $THEME->lessfile = 'default';
 }
 $THEME->parents_exclude_sheets = array('bootstrap' => array('moodle'));
 $THEME->lessvariablescallback = 'theme_bootswatch_less_variables';
