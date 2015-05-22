@@ -30,7 +30,7 @@ $string['choosereadme'] = '
             The Bootswatch theme for Moodle.
         </h2>
         <p>
-            <img class=img-polaroid src="bootswatch/pix/screenshot.gif" /><br>
+            <img class=img-polaroid src="bootswatch/pix/bootswatch.gif" /><br>
             Thanks for choosing the Bootswatch theme! After installing and setting up the theme go ahead and visit the
             Theme Bootswatch settings page on "Site Administration > Appearance > Themes > Bootswatch" and select
             one of the Bootswatches shown in the image above.

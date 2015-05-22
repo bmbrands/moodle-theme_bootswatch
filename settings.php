@@ -32,7 +32,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_bootswatch/bootswatch';
     $title = get_string('bootswatch', 'theme_bootswatch');
     $description = get_string('bootswatchdesc', 'theme_bootswatch');
-    $description .= html_writer::empty_tag('img', array('src' => $OUTPUT->pix_url('bootswatch', 'theme')));
+    $description .= html_writer::empty_tag('img', array('src' => $CFG->wwwroot . '/theme/bootswatch/pix/bootswatch.gif'));
     $default = '0';
     $setting = new admin_setting_configselect($name, $title, $description, $default, $options);
     $setting->set_updatedcallback('theme_reset_all_caches');

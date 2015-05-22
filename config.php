@@ -23,7 +23,7 @@
  */
 
 $THEME->name = 'bootswatch';
-$THEME->parents = array('bootstrap');
+$THEME->parents = array('bootstrap3base');
 
 $THEME->doctype = 'html5';
 $THEME->sheets = array('custom');
